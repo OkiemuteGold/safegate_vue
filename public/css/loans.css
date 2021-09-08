@@ -1,0 +1,117 @@
+:root {
+    --mainPrimaryColor: #ffffff;
+    --mainSecondaryColor: #ff0000;
+    --mainTertiaryColor: #000000;
+    --mainTextColor: #444444;
+    --mainCard-Bg-Light: #f4f4f4;
+}
+
+.payment-section-gradient:before {
+    background: var(--mainCard-Bg-Light) !important;
+}
+
+/* Tabular loan feature description */
+.pricing .card {
+    background: var(--mainCard-Bg-Light);
+}
+
+.other-available-loan-container {
+    background: var(--mainCard-Bg-Light);
+}
+
+/* .pricing .card-body h3 {
+    color: #ffffff;
+} */
+
+.single_price_table_content {
+    position: relative;
+    padding: 50px 25px;
+    margin-bottom: 30px;
+    z-index: 2;
+    border-radius: 6px;
+    background: url(../img/core-img/cards-bg.png);
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+    top: 0;
+    /* cursor: pointer; */
+}
+
+.single_price_table_content:hover {
+    top: -1px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.15);
+}
+
+.single_price_table_content h1 {
+    color: var(--mainTertiaryColor);
+}
+
+.single_price_table_content .table_text_details p {
+    text-transform: capitalize;
+    text-align: left;
+    font-size: 1.4rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    line-height: 1.5;
+}
+
+.single_price_table_content .table_text_details p:before {
+    /* content: '\f00c'; */
+    content: "\f058";
+    font-family: FontAwesome;
+    font-size: 13px;
+    margin-right: 7px;
+    position: relative;
+    color: var(--mainSecondaryColor);
+}
+
+.price_table_text {
+    margin-bottom: 30px;
+}
+
+.price_table_text > h1 {
+    font-size: 20px;
+}
+
+.price_table_text > h5 {
+    font-size: 16px;
+    color: var(--mainTertiaryColor);
+}
+
+hr {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.abso-img3 {
+    position: absolute;
+    bottom: -30px;
+    right: -50px;
+    z-index: -1;
+}
+
+/* .get-started-btn {
+    background-color: var(--mainSecondaryColor) !important;
+    font-size: 1.4rem;
+    border: none;
+}
+.get-started-btn:focus,
+.get-started-btn:active,
+.get-started-btn:hover {
+    box-shadow: none !important;
+    background-color: rgb(240, 0, 0) !important;
+    border: none;
+} */
+
+@media screen and (max-width: 375px) {
+    .single_price_table_content {
+        padding: 40px 15px;
+    }
+
+    .section-heading {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

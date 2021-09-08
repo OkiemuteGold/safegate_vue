@@ -191,6 +191,11 @@ a:hover {
     background: #f00 !important;
 }
 
+.p-policy .breadcrumb-item > a:hover {
+    cursor: auto;
+    color: #fff !important;
+}
+
 @media screen and (max-width: 767px) {
     .fixed-nav {
         display: none;

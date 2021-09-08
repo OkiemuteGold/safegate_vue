@@ -236,7 +236,25 @@ const routes = [{
     meta: {
         title: "Safegate MFB - Frequently Asked Questions",
     },
-}
+},
+{
+    path: "/privacy-policy",
+    name: "PrivacyPolicy",
+    component: () => import("../views/PrivacyPolicy.vue"),
+    meta: {
+        title: "Safegate MFB - Privacy Policy",
+        metaTags: [
+            {
+                name: "description",
+                content: "Safegate MFB Privacy Policy",
+            },
+            {
+                property: "og:description",
+                content: "Safegate MFB Privacy Policy",
+            },
+        ],
+    },
+},
 ];
 
 const router = new VueRouter({

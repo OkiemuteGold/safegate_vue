@@ -150,8 +150,9 @@
                                 Egbeda, Lagos State.
                             </p>
                             <p class="mt-4 mb-2">
-                                <a href="tel:+2349121373612">
-                                    <i class="fa fa-phone pr-2"></i>tel:+2349121373612
+                                <a href="tel:+234(0)9121373612">
+                                    <i class="fa fa-phone pr-2"></i
+                                    >+234(0)9121373612
                                 </a>
                             </p>
                             <p class="mt-0">
@@ -169,8 +170,11 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 text-center">
                     <div id="copyright">
                         <p>
-                            Copyright © <span id="footer_year"></span> Safegate
-                            MFB.
+                            © <span id="footer_year"></span>
+                            Safegate MFB |
+                            <router-link disabled to="/privacy-policy">
+                                Privacy Policy
+                            </router-link>
                         </p>
                     </div>
                 </div>
@@ -233,16 +237,28 @@ export default {
     color: #f00 !important;
 }
 
+.footer-social-info {
+    margin-top: 30px;
+}
+
 .footer-social-info a i {
     font-size: 23px;
 }
 
 #copyright {
     margin-top: 40px !important;
+    display: flex;
 }
-#copyright p {
+
+#copyright p,
+#copyright p a {
     font-size: 13px !important;
     color: #b5b1b1;
+    letter-spacing: 0.5px;
+}
+
+#copyright p a:hover {
+    color: #f00;
 }
 
 @media screen and (max-width: 980px) {
@@ -259,6 +275,11 @@ export default {
 @media screen and (max-width: 565px) {
     .footer-content-area {
         padding: 40px 0;
+    }
+}
+@media only screen and (max-width: 425px) {
+    #copyright {
+        justify-content: center;
     }
 }
 </style>

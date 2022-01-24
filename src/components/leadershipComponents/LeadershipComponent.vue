@@ -60,7 +60,7 @@ export default {
                     // imgUrl: "img/team-img/gbemi-aruwaji.png",
                     imgUrl: require("../../assets/img/team-img/gbemi-aruwaji.png"),
                     title: "Aruwaji Gbemisola",
-                    position: "Managing Director",
+                    position: "Managing Director Designate",
                     description:
                         "A seasoned Banker, Financial Analyst and a Business Development Executive with over 10 years of experience in the financial services industry and general business. A graduate of marketing with proven skills in relationship management, communication and problem solving. She has previously held many senior positions including role as a Bank Branch Manager.",
                 },

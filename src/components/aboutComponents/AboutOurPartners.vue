@@ -2,18 +2,16 @@
     <section class="our-partners clearfix section-padding-0-100 about-info">
         <div class="container">
             <div class="section-heading text-center">
-                <div
+                <!-- <div
                     class="mb-15 justify-content-center fadeInUp"
                     data-wow-delay="0.2s"
                 >
                     <span class="gradient-text blue">Our Partners</span>
-                </div>
-                <h2 class="fadeInUp" data-wow-delay="0.3s">
-                    Our Powerful Partners
-                </h2>
+                </div> -->
+                <h2 class="fadeInUp" data-wow-delay="0.3s">Our Regulators</h2>
                 <p class="fadeInUp" data-wow-delay="0.4s">
-                    We have great partners, strong backing and lots of support
-                    across multiple sectors nationally and internationally.
+                    We have strong backing and lots of support across multiple
+                    sectors nationally and internationally.
                 </p>
             </div>
             <div class="row">

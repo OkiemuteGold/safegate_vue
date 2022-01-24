@@ -23,4 +23,11 @@ export default {
 .section-heading {
     margin-bottom: 60px;
 }
+
+img {
+    -o-object-fit: cover;
+    object-fit: cover;
+    -o-object-position: top;
+    object-position: top;
+}
 </style>
